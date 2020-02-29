@@ -16,6 +16,12 @@ print ("probando")
 datos <- read.csv("datos/covid_19_data.csv")
 datos
 
+# cargar datos desde github
+datos2 <- read.csv("https://raw.githubusercontent.com/radviser/FundamentosMachineLearning/master/datos/covid_19_data.csv?token=AOWANHFZRV4ZAWZOXKTSQ726LG4BI")
+datos2
+
+
+
 summary(datos)
 str(datos)
 
