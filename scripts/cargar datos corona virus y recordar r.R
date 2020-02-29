@@ -3,7 +3,11 @@
 #ver cuantos registros tenemos
 #sumary (datos)
 
-print ("hola mundo")
+print ("hola mundo.")
 
 library(readr)
+#esto es una prueba
 
+print ("cargar datos")
+
+print ("probando")
